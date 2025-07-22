@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: githubViewer
+
+gitHub:
+  url: https://api.github.com
+  header.value: application/vnd.github+json
+  branches.url: /repos/{owner}/{repo}/branches
+  repositories.url: /users/{user}/repos
